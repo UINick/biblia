@@ -97,12 +97,9 @@
 		A8BA228A2C6B00340067369D /* Verse Of The Day */ = {
 			isa = PBXGroup;
 			children = (
-				A8BA228B2C6B00340067369D /* AppDelegate.swift */,
-				A8BA228D2C6B00340067369D /* SceneDelegate.swift */,
-				A8BA228F2C6B00340067369D /* ViewController.swift */,
-				A8BA22942C6B00350067369D /* Assets.xcassets */,
-				A8BA22962C6B00350067369D /* LaunchScreen.storyboard */,
 				A8BA22992C6B00350067369D /* Info.plist */,
+				A8BA22BC2C6B01470067369D /* Module */,
+				A8BA22BB2C6B011C0067369D /* Configs */,
 			);
 			path = "Verse Of The Day";
 			sourceTree = "<group>";
@@ -122,6 +119,33 @@
 				A8BA22AE2C6B00350067369D /* Verse_Of_The_DayUITestsLaunchTests.swift */,
 			);
 			path = "Verse Of The DayUITests";
+			sourceTree = "<group>";
+		};
+		A8BA22BB2C6B011C0067369D /* Configs */ = {
+			isa = PBXGroup;
+			children = (
+				A8BA228B2C6B00340067369D /* AppDelegate.swift */,
+				A8BA228D2C6B00340067369D /* SceneDelegate.swift */,
+				A8BA22942C6B00350067369D /* Assets.xcassets */,
+				A8BA22962C6B00350067369D /* LaunchScreen.storyboard */,
+			);
+			path = Configs;
+			sourceTree = "<group>";
+		};
+		A8BA22BC2C6B01470067369D /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				A8BA22BD2C6B01500067369D /* VOTD */,
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		A8BA22BD2C6B01500067369D /* VOTD */ = {
+			isa = PBXGroup;
+			children = (
+				A8BA228F2C6B00340067369D /* ViewController.swift */,
+			);
+			path = VOTD;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
